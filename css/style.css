@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&family=Roboto:wght@100;400;700&display=swap');
+
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.fab {
+  font-size: 2rem;
+  margin-left: 15px;
+  color: green;
+  padding: 10px;
+}
+.container-fluid {
+  /* border: 1px solid black; */
+}
+
+.container {
+  /* border: 1px solid red; */
+}
+
+.header {
+  background: linear-gradient(90deg, #111, #555, #111);
+  color: antiquewhite;
+}
+.header-div {
+  height: 155px;
+}
+
+.logo-header {
+  margin-top: 30px;
+  width: 343px;
+}
+.btn {
+  color:#6699FF;
+}
+.active {
+  color: #ff6600 !important;
+  background: #222 !important;
+}
+
+.chat {
+  height: 55px;
+  background: linear-gradient(90deg, #555, #111, #555);
+  color: antiquewhite;
+}
+
+.chat-row {
+  height: 53px;
+}
+
+.col-3 {
+  text-align: right;
+}
+
+.row {
+  /* border: 1px solid green; */
+}
+
+.fab-text {
+  text-align: right;
+}
