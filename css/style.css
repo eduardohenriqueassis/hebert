@@ -44,6 +44,10 @@ a {
   background: #222 !important;
 }
 
+nav .btn {
+  margin-left: 20px;
+}
+
 .chat {
   height: 55px;
   background: linear-gradient(90deg, #555, #111, #555);
@@ -56,6 +60,10 @@ a {
 
 .col-3 {
   text-align: right;
+}
+
+.col-4 {
+  /* border: brown solid 1px; */
 }
 
 .row {
