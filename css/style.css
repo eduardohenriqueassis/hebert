@@ -11,13 +11,18 @@ a {
 }
 
 .fab {
+  color: #ccc;
   font-size: 2rem;
   margin-left: 15px;
   color: green;
   padding: 10px;
+  transition: all .3s ease-in-out;
+}
+.fab:hover {
+  color: #0f0;
 }
 .container-fluid {
-  /* border: 1px solid black; */
+  /* border: 1px solid red; */
 }
 
 .container {
@@ -25,11 +30,7 @@ a {
 }
 
 .header {
-  background: linear-gradient(90deg, #111, #555, #111);
-  color: antiquewhite;
-}
-.header-div {
-  height: 155px;
+  background: linear-gradient(90deg, #111, #444, #111);
 }
 
 .logo-header {
@@ -46,7 +47,7 @@ a {
 }
 .active {
   color: #ff6600 !important;
-  background: #222 !important;
+  
 }
 
 nav .btn {
@@ -67,14 +68,21 @@ nav .btn {
   text-align: right;
 }
 
-.col-4 {
-  /* border: brown solid 1px; */
+.talk {
+  color: #ff6600;
 }
-
-.row {
-  /* border: 1px solid green; */
-}
-
 .fab-text {
   text-align: right;
+}
+
+@media (max-width: 500px){
+  .logo-header{
+    width: 60%;
+  }
+  .navbar-toggler {
+    position: fixed;
+    top: 20%;
+    right: 5%;
+    
+  }
 }

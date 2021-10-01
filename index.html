@@ -17,46 +17,51 @@
       crossorigin="anonymous"
     />
 
-    <!-- SASS -->
-    <link rel="stylesheet" href="css/custom.css">
     <!-- STYLE -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
 
     <header class="container-fluid header">
-      <div class="container header-div">
-        <div class="row align-items-center chat-row justify-content-between">
-          <div class="col">
-            <a href="#"><img class="logo-header" src="img/Logo.svg" alt="Logo Hebert"></a>
-          </div>
-          <nav class="col btn-div">
-            <div class="row justify-content-end row-cols-auto"> 
-                <button type="button" class="btn btn-secondary active">Home</button>
-                <button type="button" class="btn btn-secondary">Projetos</button>
-                <button type="button" class="btn btn-secondary">Quem Somos</button>
-                <button type="button" class="btn btn-secondary">Contato</button>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container header-div">   
+          <a href="#" class="navbar-brand"><img class="img-fluid logo-header pb-5" src="img/Logo.svg" alt="Logo Hebert"></a>
+
+          
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
             
-           
-          </nav>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#HOME" class="nav-link active">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projetos" class="nav-link">PROJETOS</a>
+              </li>
+              <li class="nav-item">
+                <a href="#quemsomos" class="nav-link">QUEM SOMOS</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contato" class="nav-link ">CONTATO</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
     <div class="container-fluid chat">
       <div class="container">
-          <div class="row align-items-center chat-row justify-content-between">
-            <div class="col-4">Casas prontas para morar</div>
-            <div class="col-3">
-              <div class="row align-items-center">
-                <div class="col"> Fale conosco</div>
-                <div class="col-2"><a href="https://wa.me/5519998581980" target="blank"><i class="fab fa-whatsapp"></i></a>
-                </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <div>Casas prontas para morar</div>
+            <div class="d-flex align-items-center">
+              <div class="talk">
+                Fale conosco
               </div>
-              
-             
-              
-            </div>
+              <div>
+                <a href="https://wa.me/5519998581980" target="blank"></span><i class="fab fa-whatsapp"></i></a>
+              </div>
+                 
           </div>
       </div> 
     </div>
