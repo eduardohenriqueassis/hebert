@@ -2,6 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&family=Roboto:wght@100;400;700&display=swap');
 
 
+:root {
+  --bg-grad-90deg: linear-gradient(90deg, #111, #444, #111);
+  --bg-grad-90deg-inv: linear-gradient(90deg, #555, #111, #555);
+  --orange: #ff6600;
+  --blue: #6699FF;
+}
+
+
+
+
 body {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -25,12 +35,13 @@ a {
   /* border: 1px solid red; */
 }
 
-.container {
+.block-1 {
   /* border: 1px solid red; */
+  
 }
 
 .header {
-  background: linear-gradient(90deg, #111, #444, #111);
+  background: var(--bg-grad-90deg);
 }
 
 .logo-header {
@@ -42,21 +53,16 @@ a {
 .logo-header:hover{
   opacity: .7;
 }
-.btn {
-  color:#6699FF;
-}
-.active {
-  color: #ff6600 !important;
-  
-}
 
-nav .btn {
-  margin-left: 20px;
-}
+/* .active {
+  color: #ff6600 !important;
+} */
+
+
 
 .chat {
   height: 55px;
-  background: linear-gradient(90deg, #555, #111, #555);
+  background: var(--bg-grad-90deg-inv);
   color: antiquewhite;
 }
 
@@ -69,10 +75,26 @@ nav .btn {
 }
 
 .talk {
-  color: #ff6600;
+  color: var(--orange);
 }
 .fab-text {
   text-align: right;
+}
+
+/* Block 1 */
+
+#project-1 {
+  
+}
+
+.residencial-do-lago {
+  font-size: 1.4rem;
+  background: #0f0;
+  padding: 5px 15px;
+  border-radius: 5px;
+  white-space: nowrap;
+  z-index: 10;
+
 }
 
 @media (max-width: 500px){
@@ -80,8 +102,8 @@ nav .btn {
     width: 60%;
   }
   .navbar-toggler {
-    position: fixed;
-    top: 20%;
+    position: absolute;
+    top: 35%;
     right: 5%;
     
   }
