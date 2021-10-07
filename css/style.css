@@ -99,7 +99,7 @@ a {
 }
 
 .house-1 {
-  min-width: 335px;
+  
 }
 
 @media (max-width: 1200px){
@@ -107,6 +107,7 @@ a {
     margin-top: 3rem;
   }
   .house-1 {
+    display: block;
     min-width: 100%;
   }
 }
