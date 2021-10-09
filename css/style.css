@@ -98,18 +98,19 @@ a {
 
 }
 
-.house-1 {
-  
+.thumb {
+  height: 10%;
 }
 
+.block-2 {
+  position: relative;
+  /* height: 390px; */
+  /* border: 1px solid black; */
+}
+
+
 @media (max-width: 1200px){
-  .h3-modern-house {
-    margin-top: 3rem;
-  }
-  .house-1 {
-    display: block;
-    min-width: 100%;
-  }
+  
 }
 
 @media (max-width: 576px){
