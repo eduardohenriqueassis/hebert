@@ -9,6 +9,11 @@
   --blue: #6699FF;
 }
 
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 
 
@@ -84,9 +89,6 @@ a {
 
 /* Block 1 */
 
-#project-1 {
-  
-}
 
 .residencial-do-lago {
   font-size: 1.4rem;
@@ -98,15 +100,11 @@ a {
 
 }
 
+/* Section-2 */
 .thumb {
   height: 10%;
 }
 
-.block-2 {
-  position: relative;
-  /* height: 390px; */
-  /* border: 1px solid black; */
-}
 
 
 @media (max-width: 1200px){
