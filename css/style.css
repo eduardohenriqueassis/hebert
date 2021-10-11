@@ -97,6 +97,18 @@ a {
 
 /* Section 3 */
 
+.thumb {
+  opacity: 0.8;
+}
+
+#project-link:hover .thumb {
+  opacity: 1;
+}
+
+#project-link:hover {
+  background: #eee !important;
+}
+
 .embed-responsive {
   min-height: 400px;
 }
