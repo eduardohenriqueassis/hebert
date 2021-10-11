@@ -138,7 +138,48 @@ a {
   height: 100%;
 }
 
+/* Footer */
+
+footer {
+  background: var(--bg-grad-90deg);
+}
+
+#whatsapp,
+#instagram,
+#youtube,
+#facebook {
+  font-size: 3rem;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+
+#whatsapp:hover {
+  background: #eee;
+  color: #34af23 !important;
+}
+
+#facebook:hover {
+  background: #eee;
+  color: #3b5998 !important;
+}
+
+#instagram:hover {
+  background: #eee;
+  color: #e1306c !important;
+}
+
+#youtube:hover {
+  background: #eee;
+  color: #fd1d1d !important;
+}
+
 @media (max-width: 1200px) {
+  #whatsapp,
+  #instagram,
+  #youtube,
+  #facebook {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 576px) {
