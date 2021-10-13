@@ -173,6 +173,18 @@ footer {
   color: #fd1d1d !important;
 }
 
+footer h3 {
+  color: var(--orange);
+}
+
+footer h3 span {
+  color: #eee;
+}
+
+footer .footer-col-3 h3 span {
+  color: var(--blue) !important;
+}
+
 @media (max-width: 1200px) {
   #whatsapp,
   #instagram,
