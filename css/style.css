@@ -185,6 +185,10 @@ footer .footer-col-3 h3 span {
   color: var(--blue) !important;
 }
 
+footer .bi-arrow-up-circle {
+  color: var(--orange);
+}
+
 @media (max-width: 1200px) {
   #whatsapp,
   #instagram,
