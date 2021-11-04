@@ -32,16 +32,17 @@ a {
   color: #ff6600 !important;
 }
 
-.fab {
+.whatsapp-ico .fab {
   color: #ccc;
   font-size: 2rem;
   margin-left: 15px;
-  color: green;
+  color: #0f0;
   padding: 10px;
   transition: all 0.3s ease-in-out;
 }
-.fab:hover {
+.whatsapp-ico .fab:hover {
   color: #0f0;
+  opacity: 0.8;
 }
 .container-fluid {
   /* border: 1px solid red; */
