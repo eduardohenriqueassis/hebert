@@ -24,12 +24,16 @@ a {
   color: #6699ff;
 }
 
-.navbar-nav .nav-item .nav-link:hover {
+#navmenu .navbar-nav .active {
   color: #ff6600;
 }
+#navmenu .navbar-nav .active:hover {
+  opacity: 0.9;
+}
 
-.navbar-nav .nav-item .active {
-  color: #ff6600 !important;
+.navbar-nav .nav-item .nav-link:hover {
+  opacity: 0.8;
+  color: #6699ff;
 }
 
 .whatsapp-ico .fab {
@@ -58,11 +62,11 @@ a {
 .logo-header {
   margin-top: 30px;
   width: 343px;
-  transition: all 0.6s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .logo-header:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .chat {
@@ -101,6 +105,12 @@ a {
 /* Section-2 */
 .thumb {
   height: 10%;
+}
+
+.slogan {
+  /* padding: 1px; */
+  background: #555;
+  border-radius: 2px;
 }
 
 /* Section 3 */
@@ -185,8 +195,60 @@ footer .footer-col-3 h3 span {
   color: var(--blue) !important;
 }
 
-footer .bi-arrow-up-circle {
-  color: var(--orange);
+/* Back to top btn */
+#back-to-top {
+  position: fixed;
+  display: none;
+  right: 10px;
+  bottom: 10px;
+  background: #222;
+  z-index: 10;
+  padding: 5px;
+  width: 3.3rem;
+  height: 3.3rem;
+  border-radius: 50%;
+  /* box-shadow: 3px 3px 5px 2px #666; */
+}
+
+#back-to-top-btn {
+  position: relative;
+  color: var(--blue);
+  font-size: 3rem;
+  left: -2px;
+  top: -20px;
+}
+.btn-in {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btn-in;
+}
+.btn-out {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btn-out;
+}
+@keyframes btn-in {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes btn-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+}
+
+#link-back-to-top:hover #back-to-top-btn {
+  opacity: 0.8;
 }
 
 @media (max-width: 1200px) {
