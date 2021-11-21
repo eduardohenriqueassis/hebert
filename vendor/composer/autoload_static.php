@@ -6,8 +6,18 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit274883f4faae1360a5684c78777d5b8b
 {
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/assis/php-php-classes/src',
+    public static $prefixLengthsPsr4 = array (
+        'H' => 
+        array (
+            'Hcode\\' => 6,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Hcode\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/assisdesign/php-classes/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -42,7 +52,8 @@ class ComposerStaticInit274883f4faae1360a5684c78777d5b8b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->fallbackDirsPsr4 = ComposerStaticInit274883f4faae1360a5684c78777d5b8b::$fallbackDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit274883f4faae1360a5684c78777d5b8b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit274883f4faae1360a5684c78777d5b8b::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit274883f4faae1360a5684c78777d5b8b::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit274883f4faae1360a5684c78777d5b8b::$classMap;
 

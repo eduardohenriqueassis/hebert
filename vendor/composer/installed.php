@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '47a974d6309c431248f98eb12e2225fd223abd65',
+        'reference' => '96a6f6dbfa6ff8bc194eb6d6607ede5f0461103d',
         'name' => 'ducabelo/hebert',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '47a974d6309c431248f98eb12e2225fd223abd65',
+            'reference' => '96a6f6dbfa6ff8bc194eb6d6607ede5f0461103d',
             'dev_requirement' => false,
         ),
         'phpmailer/phpmailer' => array(

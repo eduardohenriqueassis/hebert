@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-4": {
-      "": "vendor\\assis\\php-php-classes\\src"
+      "Hcode\\": "vendor\\assisdesign\\php-classes\\src"
     }
   }
 }

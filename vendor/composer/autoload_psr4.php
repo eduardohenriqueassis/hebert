@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '' => array($vendorDir . '/assis/php-php-classes/src'),
+    'Hcode\\' => array($vendorDir . '/assisdesign/php-classes/src'),
 );
