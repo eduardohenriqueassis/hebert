@@ -1,0 +1,19 @@
+{
+  "name": "ducabelo/hebert",
+  "authors": [
+    {
+      "name": "Assis Design",
+      "email": "assisdesignweb@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "5.2.22",
+    "slim/slim": "2.0",
+    "rain/raintpl": "3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "vendor\\assis\\php-php-classes\\src"
+    }
+  }
+}

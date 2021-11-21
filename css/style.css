@@ -198,25 +198,30 @@ footer .footer-col-3 h3 span {
 /* Back to top btn */
 #back-to-top {
   position: fixed;
-  display: none;
+  display: flex;
   right: 10px;
   bottom: 10px;
   background: #222;
   z-index: 10;
-  padding: 5px;
-  width: 3.3rem;
-  height: 3.3rem;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
+  transition: 0.3s;
   /* box-shadow: 3px 3px 5px 2px #666; */
 }
 
 #back-to-top-btn {
-  position: relative;
+  position: absolute;
+  border-radius: 50%;
   color: var(--blue);
   font-size: 3rem;
-  left: -2px;
-  top: -20px;
+  right: 2px;
+  bottom: -5px;
+  transition: 0.3s;
 }
+
 .btn-in {
   animation-duration: 0.5s;
   animation-fill-mode: both;
@@ -247,7 +252,7 @@ footer .footer-col-3 h3 span {
   }
 }
 
-#link-back-to-top:hover #back-to-top-btn {
+#back-to-top:hover #back-to-top-btn {
   opacity: 0.8;
 }
 
@@ -272,5 +277,21 @@ footer .footer-col-3 h3 span {
   .talk,
   .talk-1 {
     font-size: 80%;
+  }
+
+  #back-to-top {
+    position: fixed;
+    display: flex;
+    right: 10px;
+    bottom: 10px;
+    padding-bottom: 5px;
+    width: 36px;
+    height: 36px;
+  }
+
+  #back-to-top-btn {
+    font-size: 2rem;
+    right: 2px;
+    bottom: -3px;
   }
 }
